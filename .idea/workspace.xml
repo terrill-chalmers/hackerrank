@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83aae95b-9cb1-44aa-bb0c-ede647eaa5f2" name="Default Changelist" comment="chore: created new directory strucure">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="83aae95b-9cb1-44aa-bb0c-ede647eaa5f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counting-valleys/countingValleys.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/counting-valleys/countingValleys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counting-valleys/countingValleys.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/counting-valleys/countingValleys.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumping-clouds/jumpingOnClouds.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/jumping-clouds/jumpingOnClouds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumping-clouds/jumpingOnClouds.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/jumping-clouds/jumpingOnClouds.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeated-string/repeatedString.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/repeated-string/repeatedString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeated-string/repeatedString.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/repeated-string/repeatedString.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sock-merchant/sockMerchant.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/sock-merchant/sockMerchant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sock-merchant/sockMerchant.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/0_warm-up/sock-merchant/sockMerchant.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rotate-left/rotateLeft.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_arrays/rotate-left/rotateLeft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rotate-left/rotateLeft.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_arrays/rotate-left/rotateLeft.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/0_warm-up/repeated-string/repeatedString.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -41,6 +34,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arra</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="961" />
     <option name="width" value="959" />
     <option name="height" value="1043" />
@@ -108,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1_arrays" />
       <recent name="$PROJECT_DIR$/warm-up" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -205,8 +204,16 @@
       <option name="presentableId" value="Default" />
       <updated>1564281956631</updated>
       <workItem from="1564281958018" duration="18510000" />
-      <workItem from="1564329875810" duration="17320000" />
+      <workItem from="1564329875810" duration="17564000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: created new directory structure">
+      <created>1564435496817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564435496817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -242,12 +249,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35830000" />
+    <option name="totallyTimeSpent" value="36074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1043" extended-state="4" />
+    <frame x="0" y="-1" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12295514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -260,9 +268,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32964602" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32928178" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.47252747" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47182322" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: created new directory strucure" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: created new directory strucure" />
+    <MESSAGE value="chore: created new directory structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: created new directory structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,14 +387,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotate-left/rotateLeft.js">
+    <entry file="file://$PROJECT_DIR$/1_arrays/rotate-left/rotateLeft.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotate-left/rotateLeft.test.js">
+    <entry file="file://$PROJECT_DIR$/1_arrays/rotate-left/rotateLeft.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
@@ -394,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/0_warm-up/repeated-string/repeatedString.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
