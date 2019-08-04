@@ -12,7 +12,7 @@ test("should return 28 given the test array", () => {
 
   // console.log(`array: `, arr);
 
-  const result = hourglassSum(arr);
+  const result = hourglassSum(testArray);
 
   expect(result).toEqual(28);
 });
@@ -29,7 +29,7 @@ test("should return nineteen given the test array", () => {
 
   // console.log(`array: `, arr);
 
-  const result = hourglassSum(arr);
+  const result = hourglassSum(testArray);
 
   expect(result).toEqual(19);
 });
