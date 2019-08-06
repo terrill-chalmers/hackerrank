@@ -1,24 +1,21 @@
 // Complete the minimumSwaps function below.
 function minimumSwaps(arr) {
   let swapQty = 0;
+  let currentIndex = 0;
 
-  const swap = (currentArray, lowIndex, highIndex) => {
-    const temp = currentArray[lowIndex];
-    currentArray[lowIndex] = currentArray[highIndex];
-    currentArray[highIndex] = temp;
+  do {
+    const sortedIndex = arr[currentIndex] - 1;
 
-    swapQty += 1;
-  };
+    if (currentIndex === sortedIndex) {
+      currentIndex += 1;
+    } else {
+      const nextValue = arr[currentIndex];
+      arr[currentIndex] = arr[sortedIndex];
+      arr[sortedIndex] = nextValue;
 
-  const selectionSort = currentArray => {
-    for (let index = 0; index < currentArray.length; index++) {
-      if (currentArray[index] !== index + 1) {
-        swap(currentArray, index, currentArray.indexOf(index + 1));
-      }
+      swapQty += 1;
     }
-  };
-
-  selectionSort(arr);
+  } while (currentIndex < arr.length);
 
   return swapQty;
 }
