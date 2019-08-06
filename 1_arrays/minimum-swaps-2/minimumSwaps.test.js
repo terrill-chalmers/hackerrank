@@ -16,12 +16,12 @@ test("should return three given 1 3 5 2 4 6 7", () => {
   expect(results).toEqual(3);
 });
 
-test("should return 11 given 3 7 6 9 1 8 10 4 2 5", () => {
+test("should return 9 given 3 7 6 9 1 8 10 4 2 5", () => {
   const testArray = [3, 7, 6, 9, 1, 8, 10, 4, 2, 5];
 
   const results = minimumSwaps(testArray);
 
-  expect(results).toEqual(11);
+  expect(results).toEqual(9);
 });
 
 test("should return 46", () => {
