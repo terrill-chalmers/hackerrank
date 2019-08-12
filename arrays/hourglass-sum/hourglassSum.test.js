@@ -8,7 +8,7 @@ test("should return 28 given the test array", () => {
   const arr5 = [0, 0, 0, -2, 0, 0];
   const arr6 = [0, 0, 1, 2, 4, 0];
 
-  const arr = [arr1, arr2, arr3, arr4, arr5, arr6];
+  const testArray = [arr1, arr2, arr3, arr4, arr5, arr6];
 
   // console.log(`array: `, arr);
 
@@ -25,7 +25,7 @@ test("should return nineteen given the test array", () => {
   const arr5 = [0, 0, 0, 2, 0, 0];
   const arr6 = [0, 0, 1, 2, 4, 0];
 
-  const arr = [arr1, arr2, arr3, arr4, arr5, arr6];
+  const testArray = [arr1, arr2, arr3, arr4, arr5, arr6];
 
   // console.log(`array: `, arr);
 
